@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Glass Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+        </style>
+</head>
+
+<body>
+    <div class="container">
+         <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Ayush</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus repudiandae voluptatem sint, maiores accusantium?</p>
+                <a href="#">Know More</a>
+            </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Enter Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus repudiandae voluptatem sint, maiores accusantium?</p>
+                    <a href="#">Know More</a>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Enter Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus repudiandae voluptatem sint, maiores accusantium?</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1,
+	});
+	
+    </script>
+</body>
+</html>
